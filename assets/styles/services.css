@@ -1,0 +1,8 @@
+/* services and team styling */
+.triple.services .item p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 80%;
+    margin: auto;
+}

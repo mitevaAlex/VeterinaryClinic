@@ -1,0 +1,23 @@
+/* shop styling */
+.triple.shop .item h4 span {
+    text-decoration: line-through;
+}
+
+.triple.shop .item .btn-buy {
+    font-family: "Poppins";
+    font-size: 25px;
+    padding: 10px 45px;
+    font-weight: 600;
+    text-align: center;
+    color: inherit;
+    border: 3px solid #00bec9;
+    border-radius: 33px;
+    background: #00bec9;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.triple.shop .item .btn-buy:hover {
+    background: transparent;
+    color: #00bec9;
+}

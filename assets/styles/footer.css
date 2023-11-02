@@ -1,0 +1,87 @@
+footer {
+    background: #343434;
+    color: #fff;
+    padding-top: 100px;
+}
+
+footer .container {
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer .container .site-map .helper-links a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: inherit;
+    line-height: 40px;
+}
+
+footer .footer-content {
+    text-align: end;
+}
+
+footer .footer-content p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+footer .footer-content .message-wrapper form {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+footer .footer-content .message-wrapper form input {
+    background: #daac00;
+    border-radius: 5px;
+    padding: 15px 100px 15px 25px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    color: inherit;
+    font-weight: 400;
+    box-sizing: border-box;
+    box-shadow: 7px 14px 9px rgba(74, 74, 74, 0.1);
+}
+
+footer .footer-content .message-wrapper form input[type="submit"] {
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    text-align: center;
+    padding: 15px 25px;
+    background: #00bec9;
+    color: inherit;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+footer .footer-content .socials {
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .copyright {
+    background: #000;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
